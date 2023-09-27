@@ -1,0 +1,88 @@
+@use '../abstracts/variables' as v;
+@use '../base/typography';
+.contact-hero{
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.contact-hero__section{
+    margin-top: -7REM;
+}
+.char{
+    opacity: 0;
+    transform: translateY(115px);
+    transition: transform 0.5s;
+}
+.contact-hero__images{
+    display: flex;
+    justify-content: center;
+    margin-top:0;
+    overflow: hidden;
+   img{
+        width: 20rem;
+        height: 25rem;
+       object-fit: cover;
+       margin: 1rem;
+       margin-left: 0;
+       overflow: hidden;
+   }
+}
+
+.contact-hero__image{
+    overflow: hidden;
+
+    img{
+     display: block;
+     object-fit: cover;
+     overflow: hidden;
+     
+    }
+}
+.contact-form{
+   width: 50%;
+   margin: auto;
+   margin-bottom: 5rem;
+   display: grid;
+   text-align: center;
+   input{
+       background-color: transparent;
+       border: none;
+       border-bottom: 1px solid black;
+       margin-bottom: 4rem;
+   }
+
+}
+
+.form__textarea{
+    height: 5rem;
+    padding: 0;
+}
+
+.form__send-btn{
+    width: 15rem;
+    border: none;
+    background-color: transparent;
+    
+    h2{
+        color: v.$black;
+        margin: 0;
+        width: 3vw;
+        font-family: 'Surt-Regular';
+    }
+
+}
+
+.form__send-icon{
+    margin: 0;
+    width: 2rem;
+    margin-top: -3rem;
+}
+
+.contact-footer{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    img{
+        width: 100%;
+    }
+}

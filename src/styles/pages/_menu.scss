@@ -1,0 +1,35 @@
+.menu{
+    margin-top: 3rem;
+    position: absolute;
+    top: 0;
+    left: 27%;
+    text-align: center;
+}
+
+.menu--underside {
+    position: relative;
+    top: -4rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+    
+    img{
+        width: 30px;
+        margin: 0.5REM;
+    }
+    
+}
+
+.menu__image{
+    width: 90%;
+    height: 70vh;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.navbar--menu{
+    text-align:end ;
+}

@@ -1,0 +1,253 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.about-hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: -10rem;
+    top: 0;
+    overflow: hidden;
+
+
+}
+
+.about-hero__title{
+    position: absolute;
+    top:70vh;
+    margin-left: 2rem
+}
+
+.about-hero__background-img{
+ @include m.background-img;
+}
+
+.container{
+    width: 100%;
+    max-height: 100vh;
+}
+
+.swiper-wrapper{
+    position: relative;
+    top: 8rem;
+    left:30%;
+    overflow: hidden;
+    width:40%;
+    img{
+    
+        object-fit: cover;
+    }
+}
+
+.about-ourwork{
+    text-align: center;
+    h3{
+        width: 56%;
+        margin: auto;
+        margin-top: 7Vh;
+        color: v.$olivev2;
+
+    }
+
+    p{
+        text-transform: uppercase;
+        width: 50%;
+        margin: auto;
+        margin-top: 15vh;
+        margin-bottom: 3rem;
+    }
+}
+
+.about-what-we-do{
+    overflow: hidden;
+}
+.about-wwd{
+    position: relative;
+}
+
+.about-wwd__items{
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 30VH;
+    left: 30VW ;
+    background-color: v.$white;
+}
+
+.background-img--about{
+    height: 100vh;
+    width: 100%;
+    object-fit:cover;
+  
+}
+
+.about-wwd2{
+    text-align: center;
+    background-color: v.$grey;
+    padding-top: 18rem;
+    margin-top: -1rem;
+    padding-bottom: 8rem;
+}
+
+.about-wwd2__detail{
+    img{
+        width: 22vw;
+        height: 45vh;
+        object-fit: cover;
+    }
+}
+.about-wwd2__images{
+    display: flex;
+    justify-content: center;
+    margin-top:0;
+    overflow: hidden;
+   img{
+       width: 18rem;
+       height: 23rem;
+       object-fit: cover;
+       margin: 1rem;
+       margin-left: 0;
+   }
+}
+.about-wwd2__image{
+    overflow: hidden;
+    img{
+        display: block;
+        object-fit: cover;
+    }
+}
+
+.about-featured{
+    margin-top: 3rem;
+    text-align: center;
+   
+}
+
+.about-feautured__logos{
+    margin-top: 18vh ;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    img{
+        width: 10vw;
+        margin: 4rem;
+    }
+}
+
+.about-we{
+    background-color: v.$olivev2;
+    padding-bottom: 7rem;
+
+}
+
+.about-we__staff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20rem;
+    img{
+        background-blend-mode: overlay;
+        width: 25rem;
+        height:30rem;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+
+.about__card--left{
+    float: right;
+    margin-left: auto;
+    order: 2;
+    margin-top: -75rem;
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    margin-bottom: 2rem;
+}
+
+.about__card--right{
+    float: left;
+    margin-right: auto;
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    margin-bottom: 13rem;
+}
+
+.about-studio{
+    position: relative;
+    overflow: hidden;
+    .background-img{
+        width: 100%;
+        height: 150vh;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+}
+.about-studio__card{
+    position: absolute;
+    top:30vh;
+    left: 24vw;
+    background-color: v.$white;
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.about-message{
+    text-align: center;
+    width: 100%;
+    img{
+     width: auto;
+    }
+    h5{
+        font-size: 3vw;
+        color: v.$olivev2;
+    }
+}
+
+.message--left{
+   text-align: left;
+   margin: 2rem;
+}
+
+.message--right{
+    text-align: right;
+    width: 60%;
+    margin: 2rem;
+    margin-left: 33rem;
+}
+
+.about-contact{
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    img{
+        position: relative;
+        width: 100%;
+        height: 60rem;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+
+.text-box{
+    display: block;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 25vh;
+    left:25vw;
+    background-color: v.$beigev2;
+    padding: 3rem;
+    text-align: center;
+}
+
+  

@@ -1,0 +1,245 @@
+@use '../abstracts/variables' as v;
+
+@font-face {
+    font-family: 'BigDailyShort';
+    src: url('/assets/fonts/BigDailyShort-LightItalic.woff') format('woff'),
+    url('/assets/fonts/BigDailyShort-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Surt-Regular';
+    src: url('/assets/fonts/Surt-Regular.woff') format('woff'),
+    url('/assets/fonts/Surt-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('/assets/fonts/ClashDisplay-Medium.woff') format('woff'),
+    url('/assets/fonts/ClashDisplay-Medium.woff2') format('woff');
+}
+
+body{
+    font-family: 'ClashDisplay';
+    color: v.$black;
+}
+
+H2{
+    font-size: 6vw;
+    margin: 0;
+}
+
+
+
+em{
+    font-family: 'BigDailyShort-LightItalic';
+}
+
+.home-usp__text{
+    width: 30%;
+    margin: 1rem;
+    margin-top: 9%;
+    margin-bottom: 0;
+}
+
+[data-words] {
+    display: inline-block;
+}
+
+[data-words] span {
+    color: v.$black;
+}
+
+.flipping-word {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    font-family: 'BigDailyShort';
+}
+
+.flipping-word > span {
+    visibility: hidden;
+}
+
+.flipping-word__collection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box{
+    h5{
+        margin: auto;
+        margin-top: 0;
+        font-size: 2vw;
+        margin-bottom: 18rem;
+    }
+
+    h4{
+        font-size: 3vw;
+        font-weight: 300;
+        margin-bottom: 7rem;
+    }
+
+    h3{
+        font-size: 3.5vw;
+        margin-bottom: 0;
+        color: v.$olive;
+
+    }
+}
+
+.home-usp__text{
+    color: v.$olive;
+}
+
+.about-ourwork{
+    text-align: center;
+    h3{
+        width: 56%;
+        margin: auto;
+        margin-top: 7Vh;
+        color: v.$olivev2;
+        font-family: 'Surt-Regular';
+        line-height:3.5rem;
+    }
+
+    p{
+        text-transform: uppercase;
+        width: 50%;
+        margin: auto;
+        margin-top: 15vh;
+        margin-bottom: 3rem;
+        font-family: 'Surt-Regular';
+    }
+}
+
+.about-wwd__items{
+        H2{
+            font-family: 'BigDailyShort';
+            margin-bottom: 13rem;
+            font-weight: 300;
+        }
+        h5{
+            margin: 0.5rem;
+            text-transform: uppercase;
+            font-family: 'Surt-Regular';
+            font-size: larger;
+            color: v.$olivev3;
+        }
+}
+
+.about-featured{
+    h2{
+        font-size: 7vw;
+        width: 40%;
+        margin: auto;
+        font-family: 'BigDailyShort';
+        line-height: 7rem;
+        font-weight: 400;
+    }
+}
+
+.about-we{
+    text-align: center;
+    h1{
+        width: 100%;
+        font-size: 15vw;
+        text-transform: capitalize;
+        margin: 0;
+        font-family: 'Surt-Regular';
+        font-weight: 400;
+    }
+    h4{
+        font-family: 'BigDailyShort';
+        margin-top: 1rem;
+    }
+}
+
+.menu{
+    H1{
+        font-size: 7vw;
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 500;
+        line-height: 3.5rem;
+    }
+}
+
+.flex{
+    p{
+        font-size:xx-large;
+        font-family: 'Surt-Regular';
+        
+    }
+}
+
+.contact-hero{
+    h3{
+        font-size: 3vw ;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+
+    h4{
+        font-size: 2.5vw;
+        font-weight: 300;
+        margin-top: 0;
+    }
+}
+
+#contact__title{
+    margin-top: -1rem;
+     font-kerning: 0;
+     font-family: 'Surt-Regular';
+     text-transform: uppercase;
+     font-size: 10vw;
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+     
+   }
+
+   .contact-form{
+    label{
+        font-size: 1vw;
+        font-family: 'Surt-Regular';
+        text-transform: uppercase;
+       }
+   }
+
+   .about-hero{
+    H2{
+        font-size: 7vw;
+        top: 100vh;
+        color: v.$white;
+        width: 70%;
+        font-family: 'Surt-Regular';
+        font-weight: 400;
+        line-height: 6rem;
+    }
+   }
+
+   .about-studio__card{
+    h2{
+        margin: 0;
+        font-family: 'BigDailyShort';
+        font-weight: 400;
+    }
+    p{
+        width: 50%;
+        margin: auto;
+        margin-top: 8rem;
+    }
+   }
+
+   .about-wwd2__detail{
+    H5{
+        font-size: 1.5vw;
+        font-weight: 400;
+        width: 50%;
+        margin: auto;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        text-transform: uppercase;
+    }
+   }

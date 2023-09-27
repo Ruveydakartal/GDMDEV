@@ -1,0 +1,27 @@
+{
+  "name": "3d-final-",
+  "version": "1.0.0",
+  "description": "Eindopdracht 3D",
+  "main": "index.js",
+  "scripts": {
+    "watch": "mix watch",
+    "build": "mix --production"
+  },
+  "keywords": [
+    "sass",
+    "gsap"
+  ],
+  "author": "Ruveyda Kartal",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "split-type": "^0.3.3",
+    "swiper": "^8.4.5"
+  }
+}

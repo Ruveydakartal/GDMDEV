@@ -1,0 +1,10 @@
+.form__send:hover{
+    img{
+        animation: spin 0.5s linear forwards;
+        text-decoration: underline;
+    }
+    h2{
+        text-decoration: underline 7px;
+    }
+    
+}

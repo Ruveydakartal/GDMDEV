@@ -1,0 +1,63 @@
+@use '../abstracts/variables' as v;
+@use '../base/typography';
+body{
+    top: 0;
+    left: 0;
+    background-color: v.$white;
+    padding: 0;
+    margin: 0; 
+    border:0;
+}
+
+
+
+.arrow {
+    width: 12px;
+    margin-right: 4px;
+}
+
+.footer{
+    
+    padding: 2rem;
+    background-color: v.$grey;
+    position: relative;
+    bottom: 0;
+}
+
+.logo{
+    position: relative;
+    margin-top: 1rem;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20rem;
+    margin-bottom: 0;
+    overflow: hidden;
+    h5{
+        font-size: 2vw;
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+h3{
+    font-size: 3.5vw;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 3vw;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: v.$black;
+}
